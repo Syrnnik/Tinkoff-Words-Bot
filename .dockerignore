@@ -1,0 +1,9 @@
+# IDE dirs
+.vscode/
+.idea/
+
+# Python dirs
+__pycache__/
+
+# Environments
+venv/
