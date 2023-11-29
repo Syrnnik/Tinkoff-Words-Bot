@@ -3,8 +3,8 @@ import asyncio
 from aiogram import Bot
 
 from loader import dp, bot
-from src.utils.bot.set_bot_commands import set_bot_commands
-from src.utils.bot.set_bot_routers import set_bot_routers
+from utils.bot.set_bot_commands import set_bot_commands
+from utils.bot.set_bot_routers import set_bot_routers
 
 
 async def on_startup(bot: Bot):

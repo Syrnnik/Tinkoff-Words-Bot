@@ -2,7 +2,7 @@ import schedule
 from aiogram.fsm.context import FSMContext
 from aiogram.types import Message
 
-from src.constants.bot_commands import stop_command
+from constants.bot_commands import stop_command
 from loader import dp
 
 

@@ -2,7 +2,7 @@ from aiogram import Router
 from aiogram.filters import Command
 from aiogram.types import Message
 
-from src.constants.bot_commands import help_command, start_command
+from constants.bot_commands import help_command, start_command
 
 start_help_router = Router(name=__name__)
 

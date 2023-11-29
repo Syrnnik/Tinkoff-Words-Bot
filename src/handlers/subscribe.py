@@ -2,10 +2,10 @@ import schedule
 from aiogram.fsm.context import FSMContext
 from aiogram.types import Message
 
-from src.constants.bot_commands import subscribe_command
+from constants.bot_commands import subscribe_command
 from loader import dp
-from src.states.UserStates import UserState
-from src.utils.send_word_to_subscribed_user import send_word_to_subscribed_user
+from states.UserStates import UserState
+from utils.send_word_to_subscribed_user import send_word_to_subscribed_user
 
 
 @dp.message(subscribe_command)

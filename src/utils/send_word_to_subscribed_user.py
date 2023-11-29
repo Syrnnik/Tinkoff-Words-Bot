@@ -1,7 +1,7 @@
 import asyncio
 
 from loader import bot
-from src.utils.api.words_api import get_today_word
+from utils.api.words_api import get_today_word
 
 
 def send_word_to_subscribed_user(chat_id: int):

@@ -1,7 +1,7 @@
 from aiogram import Dispatcher
 
-from src.handlers.get_word import get_word_router
-from src.handlers.start_help import start_help_router
+from handlers.get_word import get_word_router
+from handlers.start_help import start_help_router
 
 
 def set_bot_routers(dispatcher: Dispatcher):
